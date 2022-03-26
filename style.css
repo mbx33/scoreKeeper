@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.main-container {
+  width: 70%;
+  margin: 1rem auto;
+  box-shadow: 0 0 1rem #222;
+}
+
+.top-section {
+  border-bottom: 1px solid gray;
+}
+
+img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.4rem;
+  padding: 1rem 0;
+  margin-left: 1rem;
+}
+
+.score {
+  padding: 1.5rem 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.score h2 {
+  font-size: 2rem;
+}
+.score span {
+  font-size: 2.5rem;
+}
+
+.score p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form {
+  font-size: 2.2rem;
+}
+
+.form label {
+  font-weight: 700;
+}
+
+.form select {
+  border-radius: 3rem;
+  padding: 0.3rem;
+}
+
+.form option {
+  font-size: 1.4rem;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.1rem;
+}
+
+#player1 {
+  padding: 0.6rem 1rem;
+  color: #fff;
+  background-color: limegreen;
+  border: none;
+  font-size: 1.2rem;
+}
+
+#player2 {
+  padding: 0.6rem 1rem;
+  color: #fff;
+  background-color: skyblue;
+  border: none;
+  font-size: 1.2rem;
+}
+
+#reset {
+  padding: 0.6rem 1rem;
+  color: #fff;
+  background-color: salmon;
+  border: none;
+  font-size: 1.2rem;
+}

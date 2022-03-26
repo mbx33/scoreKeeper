@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Score Keeper</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <main class="main-container">
+      <section class="top-section">
+        <img src=
+        https://images.unsplash.com/photo-1534158914592-062992fbe900?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3784&q=80">
+        <h1>Ping Pong Score Keeper</h1>
+      </section>
+
+      <!--     Display the current score here  ----->
+      <section class="score">
+        <h2>
+          <span id="player1Score">0</span> to <span id="player2Score">0</span>
+        </h2>
+        <p>Use the buttons below to keep score</p>
+
+        <div class="form">
+          <label for="score-amount">Playing To</label>
+          <select name="to-score" id="score-amount">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+          </select>
+        </div>
+      </section>
+
+      <div class="buttons">
+        <button id="player1">+1 Player One</button>
+        <button id="player2">+1 Player Two</button>
+        <button id="reset">Reset</button>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
+
+<!-- future features --
+1. add a win by two
+2. best of 3 or 5 games -->
